@@ -44,8 +44,8 @@ public class AbstractSteps {
 	            driver = new OperaDriver();
 	        }
 	        else if(browser.equalsIgnoreCase("chrome")){
-	   //   System.setProperty("webdriver.chrome.driver","/Users/yuvarajilangovan/Desktop/chromedriver");
-	        	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+	      System.setProperty("webdriver.chrome.driver","/Users/yuvarajilangovan/Desktop/chromedriver1");
+	        	//System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 	 
 	      //create chrome instance
 	      driver = new ChromeDriver();
