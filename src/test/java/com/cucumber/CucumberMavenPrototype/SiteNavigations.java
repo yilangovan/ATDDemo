@@ -32,10 +32,10 @@ public class SiteNavigations extends AbstractSteps {
 		driver.findElement(By.xpath("//input[@value='Open New Account' and @type='submit']")).click();
 	}
 	
-	@Then("^click on newly created account number \"([^\"]*)\"$")
-	public void ClickOnSpecificAccountNumber(String arg1) throws Throwable {
+	@Then("^click on newly created account number$")
+	public void click_on_newly_created_account_number() throws Throwable {
 		driver.findElement(By.id("newAccountId")).click();
-	}
+	}	
 	
 	@Then("^click on Update contact info \"([^\"]*)\"$")
 	public void click_on_Update_contact_info(String arg1) throws Throwable {
