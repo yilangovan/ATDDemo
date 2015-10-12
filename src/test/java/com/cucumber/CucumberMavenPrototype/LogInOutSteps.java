@@ -19,7 +19,7 @@ public class LogInOutSteps extends AbstractSteps {
 	WebDriver driver = null;
 	@Before
 	public void MaketheDriverReady() throws Throwable {
-		driver = getDriver("chrome");
+		driver = getDriver("opera");
 	}
 
 	@When("^user \"([^\"]*)\" logs in using password \"([^\"]*)\"$")
