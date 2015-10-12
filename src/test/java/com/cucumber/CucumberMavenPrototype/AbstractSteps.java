@@ -40,7 +40,7 @@ public class AbstractSteps {
 	        	//DesiredCapabilities capabilities = DesiredCapabilities.opera();
 	            //capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 	            	
-	            System.setProperty("webdriver.opera.driver", "/Users/yuvarajilangovan/Downloads/operadriver");
+	            System.setProperty("webdriver.opera.driver", "/usr/bin/operadriver");
 	            driver = new OperaDriver();
 	        }
 	        else if(browser.equalsIgnoreCase("chrome")){
