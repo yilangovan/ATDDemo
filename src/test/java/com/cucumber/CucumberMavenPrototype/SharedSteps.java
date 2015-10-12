@@ -19,7 +19,7 @@ public class SharedSteps extends AbstractSteps {
 	WebDriver driver = null;
 	@Before
 	public void MaketheDriverReady() throws Throwable {
-		driver = getDriver("chrome");
+		driver = getDriver("opera");
 	}
 
 	@Given("^Open Parabank website Home page$")
