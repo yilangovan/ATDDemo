@@ -19,7 +19,7 @@ Feature: Testing ParaBank website features as a valid user
     @Regression
     Examples: 
       | Username | Password | amount | From    | To      |
-      | "john"   | "demo"   | "2000" | "13344" | "13455" |
+      | "john"   | "demo"   | "2000" | "12345" | "12456" |
       
       
       
