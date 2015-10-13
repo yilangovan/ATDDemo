@@ -19,7 +19,7 @@ public class SiteNavigations extends AbstractSteps {
 	WebDriver driver = null;
 	@Before
 	public void MaketheDriverReady() throws Throwable {
-		driver = getDriver("opera");
+		driver = getDriver("firefox");
 	}
 	
 	@Then("^click on Open New Account link \"([^\"]*)\"$")

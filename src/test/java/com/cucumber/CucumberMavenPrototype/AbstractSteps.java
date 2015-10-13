@@ -23,10 +23,10 @@ public class AbstractSteps {
 			 
 	        if(browser.equalsIgnoreCase("firefox")){
 	        	
-	        	System.setProperty("webdriver.firefox.bin","PATH_TO_BINARY");
-	        	//FirefoxBinary binary = new FirefoxBinary(new File("path/to/binary"));
-	        	FirefoxProfile profile = new FirefoxProfile();
-	            driver = new FirefoxDriver(profile);
+//	        	System.setProperty("webdriver.firefox.bin","PATH_TO_BINARY");
+//	        	//FirefoxBinary binary = new FirefoxBinary(new File("path/to/binary"));
+//	        	FirefoxProfile profile = new FirefoxProfile();
+	            driver = new FirefoxDriver();
 	        	
 	        }
 	        else if(browser.equalsIgnoreCase("safari")){
