@@ -59,33 +59,23 @@ public class AbstractSteps {
 			//Check if the browser is 'firefox'
 			 
 	        if(browser.equalsIgnoreCase("firefox")){
-	        	
-//	        	System.setProperty("webdriver.firefox.bin","PATH_TO_BINARY");
-//	        	//FirefoxBinary binary = new FirefoxBinary(new File("path/to/binary"));
-//	        	FirefoxProfile profile = new FirefoxProfile();
 	            driver = new FirefoxDriver();
 	        	
 	        }
 	        else if(browser.equalsIgnoreCase("safari")){
 	        	driver = new SafariDriver(); 
-	        	
 	        }
 	        
-	      //Check if the browser is 'opera'
-	        else if(browser.equalsIgnoreCase("opera")){
-	        	
-	        	//DesiredCapabilities capabilities = DesiredCapabilities.opera();
-	            //capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-	            	
+	        //Check if the browser is 'opera'
+	        else if(browser.equalsIgnoreCase("opera")){	
 	            System.setProperty("webdriver.opera.driver", "/usr/bin/operadriver");
 	            driver = new OperaDriver();
 	        }
 	        else if(browser.equalsIgnoreCase("chrome")){
-	      //System.setProperty("webdriver.chrome.driver","/Users/yuvarajilangovan/Desktop/chromedriver1");
 	        	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver1");
 	 
-	      //create chrome instance
-	      driver = new ChromeDriver();
+	        //create chrome instance
+	            driver = new ChromeDriver();
 			
 	        }
 		}
