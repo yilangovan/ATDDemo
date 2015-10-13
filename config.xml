@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Testing>
+	<ATDD>
+		<browser>firefox</browser>
+		<server></server>
+	</ATDD>
+	<ATDD>
+		<browser>chrome</browser>
+		<server></server>
+	</ATDD>
+</Testing>
